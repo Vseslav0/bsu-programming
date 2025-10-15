@@ -9,8 +9,10 @@ Vector Vector::operator+(const Vector& second) {
                                      this->data_.second + second.data_.second};
 }
 Number Vector::get_angle() {
-    return (data_.first < 0) ? std::acos(this->data_.first)
-                             : -std::acos(this->data_.first);
+    long double s = this->data_.first * this->data_.first +
+                    this->data_.second * this->data_.second;
+    return (data_.first < 0) ? std::acos((double)this->data_.first / s)
+                             : -std::acos((double)this->data_.first / s);
 }
 
 Number Vector::get_radius() {

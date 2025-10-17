@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\yauhen\source\repos\dynamiclib\Dll1\vector.h(7,32): warning C4099: std::pair<Number,Number>: имя типа, ранее отображенное с помощью "struct", теперь отображено с помощью "class"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\utility(461,10): warning C4251: "std::pair<Number,Number>::first": "Number" должен иметь dll-интерфейс для использования клиентами "std::pair<Number,Number>"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\utility(462,10): warning C4251: "std::pair<Number,Number>::second": "Number" должен иметь dll-интерфейс для использования клиентами "std::pair<Number,Number>"
+     Создается библиотека C:\Users\yauhen\source\repos\dynamiclib\Dll1\x64\Debug\Dll1.lib и объект C:\Users\yauhen\source\repos\dynamiclib\Dll1\x64\Debug\Dll1.exp
+  Dll1.vcxproj -> C:\Users\yauhen\source\repos\dynamiclib\Dll1\x64\Debug\Dll1.dll
